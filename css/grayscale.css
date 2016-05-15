@@ -24,7 +24,7 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -57,15 +57,20 @@ a:focus {
     color: #1d9b6c;
 }
 
+.techtrek_color {
+    color: #fed136;
+}
+
 .light {
     font-weight: 400;
+    font-size: 15px;
 }
 
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*text-transform: uppercase;*/
+    font-family: "Roboto Slab", Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000;
 }
 
@@ -115,7 +120,8 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a {
-    background-color: rgba(255,255,255,.3);
+    background-color: #fec503;
+    /*background-color: rgba(255,255,255,.3);*/
 }
 
 .navbar-custom .nav li.active a:hover {

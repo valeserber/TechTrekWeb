@@ -13,6 +13,17 @@ function collapseNavbar() {
     }
 }
 
+$(document).ready(function(){
+    $(".demo1 .rotate").textrotator({
+        animation: "fade",
+        speed: 1200
+    });
+    $(".demo2 .rotate").textrotator({
+        animation: "fade",
+        speed: 1700
+    });
+});
+
 $(window).scroll(collapseNavbar);
 $(document).ready(collapseNavbar);
 
