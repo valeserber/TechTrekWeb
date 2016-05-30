@@ -20,7 +20,7 @@ $(document).ready(function(){
     });
     $(".demo2 .rotate").textrotator({
         animation: "fade",
-        speed: 1700
+        speed: 2000
     });
 });
 
