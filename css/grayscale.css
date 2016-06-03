@@ -61,6 +61,10 @@ a:focus {
     color: #fed136;
 }
 
+.dark_color {
+    color: #585858;
+}
+
 .light {
     font-weight: 400;
     font-size: 15px;
@@ -153,7 +157,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/headerpic2.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -202,6 +206,46 @@ a:focus {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
+}
+
+.btn-circle-dark {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #585858;
+    border-radius: 100%!important;
+    font-size: 40px;
+    color: #585858;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle-dark:hover,
+.btn-circle-dark:focus {
+    outline: 0;
+    color: #585858;
+    background: rgba(255,255,255,.1);
+}
+
+.btn-circle-dark i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.btn-circle-dark:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
 }
 
 .btn-circle:hover,
@@ -264,7 +308,7 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 10px;
+    padding-top: 0px;
 }
 
 .download-section {
@@ -279,6 +323,52 @@ a:focus {
     -o-background-size: cover;
 }
 
+.phrase1-section {
+    width: 100%;
+    color: #fff;
+    background: url(../img/stanford1.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.phrase2-section {
+    width: 100%;
+    color: #fff;
+    background: url(../img/google1.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.phrase3-section {
+    width: 100%;
+    color: #fff;
+    background: url(../img/telefonica1.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.circles-section {
+    width: 100%;
+    color: #fff;
+    padding-top: 25px;
+    background: url(../img/mapamundi.png) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
 #map {
     width: 100%;
     height: 200px;
@@ -287,7 +377,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 0px;
     }
 
     .download-section {
@@ -298,6 +388,14 @@ a:focus {
         height: 400px;
         margin-top: 250px;
     }
+
+    .phrases-section {
+        padding-top: 0px;
+    }
+}
+
+.space {
+    height: 180px;
 }
 
 .btn {
