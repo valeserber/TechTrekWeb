@@ -113,10 +113,22 @@ a:focus {
     background-color: transparent;
 }
 
+.navbar-custom .nav .not_transparent li a:hover {
+    outline: 0;
+    color: rgba(255,255,255,.8);
+    background-color: #000;
+}
+
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
     outline: 0;
     background-color: transparent;
+}
+
+.navbar-custom .nav .not_transparent li a:focus,
+.navbar-custom .nav .not_transparent li a:active {
+    outline: 0;
+    background-color: #000;
 }
 
 .navbar-custom .nav li.active {
@@ -169,6 +181,10 @@ a:focus {
     width:70%;
 }
 
+.team-visits {
+    width: 50%;
+}
+
 .team-intro {
     display: table;
     width: 100%;
@@ -176,6 +192,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
+    background: url(../img/googleheader.jpg) no-repeat bottom center scroll;
     background-color: #f7f7f7;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -250,6 +267,31 @@ a:focus {
     .intro .intro-body .intro-text {
         font-size: 26px;
     }
+}
+
+.btn-rectangle {
+    padding: 8px 40px;
+    border-color: #fed136;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #333;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.btn-rectangle:hover,
+.btn-rectangle:focus,
+.btn-rectangle:active,
+.btn-rectangle.active,
+.open .dropdown-toggle.btn-rectangle {
+    border-color: #f6bf01;
+    color: #fff;
+    background-color: #1a1a1a;
 }
 
 .btn-circle {
